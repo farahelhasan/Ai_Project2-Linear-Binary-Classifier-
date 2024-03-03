@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="hedder-class">
+      <label> Linear binary classifier </label>
+    </div>
+
+    <div class="contaner">
+      <div class="canva-class">
+        <canvas id="myCanvas"></canvas>
+      </div>
+
+      <div class="user-input">
+        <label for="learningRate">learning Rate </label>
+        <input type="text" id="learningRate" />
+
+        <label for="maximumNumberOfIterations">
+          Maximum Number Of Iterations
+        </label>
+        <input type="text" id="maximumNumberOfIterations" />
+
+        <input type="button" id="startLearning" value="Start learning" />
+        <label></label>
+
+        <label for="thevalueofx"> enter the value of x : </label>
+        <input type="text" id="xnum" />
+
+        <label for="thevalueofx"> enter the value of y : </label>
+        <input type="text" id="ynum" />
+
+        <input type="button" id="checkpoint" value="checkpoint" />
+        <lable></lable>
+
+        <p id="result"></p>
+
+        <label></label>
+
+        <label> our system performance : </label>
+        <p id="performance"></p>
+
+        <input type="button" id="ClearCanves" value="ClearCanves"/>
+
+        <input type="button" id="Cleardata" value="ClearData"/>
+        
+
+      </div>
+
+      <div class="information">
+        Note about Enter Data.. <br> * Triangle: Right Clike On Mouse <br />* Rectangle: Left Clike On
+        Mouse
+      </div>
+    </div>
+
+    <script src="mainJavascript.js"></script>
+  </body>
+</html>

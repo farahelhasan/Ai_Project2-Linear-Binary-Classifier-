@@ -1,0 +1,120 @@
+body {
+  background-image: url("image/bacground.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  margin: 0px;
+  padding: 0px;
+}
+.hedder-class {
+  width: 100%;
+  height: 90px;
+  background-color: #908c8c8f;
+  opacity: 0.5px;
+  margin: xxzddpx;
+  padding: 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 30px;
+  color: white;
+  text-shadow: 1.5px 1.5px 3px rgba(255, 20, 145, 0.678);
+  font-family: monospace;
+  box-shadow: 2px 2px 4px rgba(255, 255, 255, 0.711);
+}
+.contaner {
+  margin-top: 0px;
+  display: grid;
+  grid-template-columns: auto auto;
+  column-gap: 50px;
+  row-gap: 2px;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+.canva-class {
+  margin-top: 20px;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#myCanvas {
+  border: 6px solid deeppink;
+  margin-top: 50px;
+  /* border-top: 0px; */
+  border-radius: 20px;
+  background-color: white;
+  max-width: 700px;
+  width: 100%;
+  height: 400px;
+  box-shadow: 3px 3px 6px rgba(255, 20, 145, 0.678);
+}
+.information {
+  margin-left: 40px;
+  margin-top: 10px;
+  font-size: 20px;
+  font-weight: bolder;
+  color: white;
+  font-family: monospace;
+  text-shadow: 3px 3px 5px rgba(255, 20, 145, 0.678);
+}
+.user-input {
+  display: grid;
+  grid-template-columns: auto auto;
+  column-gap: 50px;
+  row-gap: 24px;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 50%;
+  /* border: 1px solid black; */
+  margin: 10px;
+  font-size: 20px;
+  font-weight: bolder;
+  color: white;
+  font-family: monospace;
+}
+.user-input input {
+  border: 3px solid deeppink;
+  border-radius: 9px;
+  height: 20px;
+  box-shadow: 2px 2px 4px rgba(255, 20, 145, 0.678);
+}
+
+.user-input label {
+  text-shadow: 3px 3px 5px rgba(255, 20, 145, 0.678);
+}
+
+p {
+  font-size: 20px;
+  font-weight: bolder;
+  color: white;
+  font-family: monospace;
+  text-shadow: 2px 2px 4px #191111d8;
+}
+#startLearning,
+#checkpoint,
+#ClearCanves,
+#Cleardata {
+  height: 30px;
+  margin-bottom: 15px;
+  font-size: 15px;
+  font-weight: bolder;
+  color: deeppink;
+  text-shadow: 2px 2px 4px #191111d8;
+
+  font-family: monospace;
+}
+#ClearCanves,
+#Cleardata {
+  margin-top: 0px;
+}
+#performance {
+  margin-top: 0px;
+}
+#result {
+  margin-top: 2px;
+}
